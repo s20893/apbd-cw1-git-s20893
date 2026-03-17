@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Zmiana 1");
         Console.WriteLine("Zmiana 2");
-        Console.WriteLine("");
+        Console.WriteLine("Zmiana 3");
         Console.WriteLine("");
         
     }
