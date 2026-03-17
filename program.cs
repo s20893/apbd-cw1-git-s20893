@@ -15,7 +15,15 @@ class Program
 
     int CalculateMax(int[] values)
     {
-        
+        int ret = values[0];
+        for (int i = 1; i < values.Length; i++)
+        {
+            if (ret < values[i])
+            {
+                ret = values[i];
+            }
+        }
+        return ret;
     }
     static void Main(string[] args)
     {
