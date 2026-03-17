@@ -58,7 +58,7 @@ class Program
         Console.WriteLine("Zmiana 4");
         Console.WriteLine("Zmiana 5");
         Console.WriteLine("Zmiana 6");
-        Console.WriteLine("Zmiana 6");
+        Console.WriteLine("Zmiana 7");
         
 
 
