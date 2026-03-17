@@ -36,6 +36,8 @@ class Program
         Console.WriteLine("Zmiana 3");
         Console.WriteLine("Zmiana 4");
         Console.WriteLine("Zmiana 5");
+        Console.WriteLine("Zmiana 6");
+
 
         
     }
