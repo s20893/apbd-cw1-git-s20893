@@ -29,6 +29,11 @@ class Program
         }
         return ret;
     }
+
+    int CalculateMin(int[] values)
+    {
+        
+    }
     static void Main(string[] args)
     {
         Console.WriteLine("Zmiana 1");
