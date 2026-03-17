@@ -45,6 +45,8 @@ class Program
             }
         }
         Console.WriteLine(ret);
+        Console.WriteLine($"Minimum to {ret}");
+        
 
         return ret;
     }
