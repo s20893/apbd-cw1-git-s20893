@@ -44,6 +44,8 @@ class Program
                 ret = values[i];
             }
         }
+        Console.WriteLine(ret);
+
         return ret;
     }
     static void Main(string[] args)
