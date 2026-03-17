@@ -12,6 +12,23 @@ class Program
         average = average / values.Length;
         return average;
     }
+
+    int CalculateMax(int[] values)
+    {
+        if (!values.Length > 0)
+        {
+            return -1;
+        }
+        int ret = values[0];
+        for (int i = 1; i < values.Length; i++)
+        {
+            if (ret < values[i])
+            {
+                ret = values[i];
+            }
+        }
+        return ret;
+    }
     static void Main(string[] args)
     {
         Console.WriteLine("Zmiana 1");
