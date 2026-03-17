@@ -45,7 +45,7 @@ class Program
             }
         }
         Console.WriteLine(ret);
-        Console.WriteLine($"Minimum to {ret}");
+        Console.WriteLine($"Minimum to : {ret}" + " cyfra");
         
 
         return ret;
